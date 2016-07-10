@@ -1,4 +1,4 @@
-# Angualar 2 Alpha Project
+# Angular 2 Alpha Project
 This is my first look using Angular 2
 
 # Installation pre-requisites
