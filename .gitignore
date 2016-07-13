@@ -1,6 +1,7 @@
 # Idea Files
 .idea/
 .idea_modules/
+*.iml
 
 # Node Files and generated files
 node_modules/

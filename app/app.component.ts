@@ -1,21 +1,21 @@
 import {Component} from '@angular/core';
 
 @Component({
-    selector:'my-app',
+    selector: 'my-app',
     templateUrl: './app/templates/main.html'
 })
-export class AppComponent{
+export class AppComponent {
     student = {
         "name": "Edwin Torres",
         "age": 27,
         "favoriteColor": "red"
     }
 
-    myClick(){
+    static myClick() {
         alert("Me diste click :D");
     }
 
-    myBlur(){
+    static myBlur() {
         console.log("Saliste!");
     }
 }

@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./app/css/styles.css">
     <!-- 1. Load libraries -->
     <!-- Polyfill(s) for older browsers -->
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
     <script src="node_modules/core-js/client/shim.min.js"></script>
     <script src="node_modules/zone.js/dist/zone.js"></script>
     <script src="node_modules/reflect-metadata/Reflect.js"></script>
@@ -15,12 +16,16 @@
     <!-- 2. Configure SystemJS -->
     <script src="systemjs.config.js"></script>
     <script>
-        System.import('app').catch(function(err){ console.error(err); });
+        System.import('app')
+              .catch(function(err){ console.error(err); });
     </script>
 </head>
 <!-- 3. Display the application -->
 <body>
 <my-app>Loading...</my-app>
+
+<!-- 1. component example -->
+<hello-component></hello-component>
 
 <!-- Scripts -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
