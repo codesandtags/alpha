@@ -1,7 +1,7 @@
-# Idea
+# Idea Files
 .idea/
-*.iml
+.idea_modules/
 
-# Node
+# Node Files and generated files
 node_modules/
 typings/
